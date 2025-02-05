@@ -60,7 +60,7 @@ export default function App() {
     const updatedData = data.map((item) =>
       item.id === id ? { ...item, completeTask: !item.completeTask } : item
     );
-    setData(updatedData); // Update state with the modified item
+    setData(updatedData); 
   };
 
 
